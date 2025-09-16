@@ -1,0 +1,8 @@
+﻿Console.WriteLine("Введите натуральное число:");
+int n  = Convert.ToInt32(Console.ReadLine());
+int s = 0;
+for (int i = 1; i <= n; i++)
+{
+    s += i * 10 +1;
+}
+    Console.WriteLine(s);
